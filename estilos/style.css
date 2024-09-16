@@ -1,0 +1,122 @@
+body {
+  font-family: 'Signika Negative';
+  color: rgb(7, 7, 7);
+  background-color: rgb(237, 222, 202);
+
+}
+
+.header {
+  font-family: "Bungee Tint", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img {
+  width: 200px;
+}
+
+.header-burger-info {
+  margin-left: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-burger-info h1 {
+  text-transform: uppercase;
+  font-size: 48px;
+}
+
+.header-burger-info span {
+  text-transform: capitalize;
+
+}
+
+.menu {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 24px;
+  padding: 16px;
+}
+
+.menu-item {
+  margin-top: 12x;
+  margin-bottom: 12;
+}
+
+.menu-item h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Bungee Tint", sans-serif;
+}
+
+.menu-item-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.menu-item-description p {
+  font-size: 24px;
+  color: rgb(60, 4, 4);
+}
+
+.menu-item-description strong {
+  width: 120px;
+  font-weight: bold;
+  text-align: right;
+  font-size: 24px;
+  color: red;
+}
+
+.footer {
+  display: flex;
+  flex-direction: center;
+  justify-content: flex-start;
+
+  padding: 24px;
+}
+
+.container {
+  display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+height: calc(100vh - 200px);
+}
+
+.drinks-title{
+  height: 100%;
+font-size: 40px;
+font-family: "Bungee Tint", sans-serif;
+}
+
+.drinks{
+  margin-left: 24px;
+  width: 100%;
+}
+
+.drink-item{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.drink-item p{
+  font-family: "Bungee Tint", sans-serif;
+  font-size: 18px;
+}
+
+.drink-item strong{
+  color: red;
+font-weight: bold;
+font-size: 22px;
+}
